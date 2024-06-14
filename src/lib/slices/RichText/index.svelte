@@ -6,7 +6,7 @@
 	export let slice: Content.RichTextSlice;
 </script>
 
-<section class="container">
+<section class="container text-red-600">
 	<PrismicRichText
 		field={slice.primary.content}
 		components={{
